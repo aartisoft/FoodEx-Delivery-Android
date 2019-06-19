@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimaryVeryLight">#A6E4B5</color>
+    <color name="colorPrimaryLight">#7dcc90</color>
+    <color name="colorPrimary">#6665FF</color>
+    <color name="colorInnactive">#dedede</color>
+    <color name="colworCardInnactive">#F3F3F3</color>
+    <color name="colorCountInnactive">#666666</color>
+    <color name="green">#27ae60</color>
+    <color name="red">#e74c3c</color>
+    <color name="colorPrimaryDisabled">#72dbae</color>
+    <color name="colorPrimaryDark">#35aa72</color>
+
+    <color name="colorAccent">#CACACA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bottom_menu_background">#F5F5F5</color>
+    <color name="light_white">#F7F7F7</color>
+    <color name="dark_white">#e6e3e5</color>
+    <color name="dark">#24344a</color>
+    <color name="white_text">#CACACA</color>
+    <color name="dark_text">#AAAAAA</color>
+    <color name="very_dark_text">#969696</color>
+    <color name="black_light">#BF444444</color>
+    <color name="black">#444444</color>
+    <color name="дивайдер">#0F444444</color>
+    <color name="email">#621fcf</color>
+    <color name="google">#ea3555</color>
+    <color name="transparent">#00000000</color>
+    <color name="ripple_color">#f8f8f8</color>
+    <color name="ripple_dark_color">#C8C8C8</color>
+    <color name="input_text">#222222</color>
+
+
 </resources>

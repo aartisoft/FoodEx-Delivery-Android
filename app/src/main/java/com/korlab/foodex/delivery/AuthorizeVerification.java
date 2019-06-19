@@ -1,0 +1,13 @@
+package com.korlab.foodex.delivery;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class AuthorizeVerification extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_authorize_verification);
+    }
+}

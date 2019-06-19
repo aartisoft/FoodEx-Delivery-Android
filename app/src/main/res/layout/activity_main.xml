@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f3f5f8"
+    android:paddingTop="@dimen/dp10">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--<ImageView-->
+            <!--android:layout_width="@dimen/sp26"-->
+            <!--android:layout_height="@dimen/sp22"-->
+            <!--android:layout_marginLeft="@dimen/dp14"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:src="@drawable/hamburger_menu"/>-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp14"
+                android:text="My Tasks"
+                android:textSize="@dimen/sp26"
+                android:fontFamily="@font/maven_pro_medium"
+                android:textColor="#1F314A"/>
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/exit"
+            android:layout_width="@dimen/dp24"
+            android:layout_height="@dimen/dp24"
+            style="@style/ClickableImageView"
+            android:padding="@dimen/dp6"
+            android:layout_marginRight="@dimen/dp14"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/close"/>
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/list_task"
+        android:listSelector="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f3f5f8"
+        android:fadingEdgeLength="@dimen/dp32"/>
+
+</LinearLayout>
