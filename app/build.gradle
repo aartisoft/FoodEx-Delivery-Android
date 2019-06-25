@@ -48,6 +48,9 @@ dependencies {
     implementation 'com.google.android.gms:play-services-basement:16.2.0'
 
     implementation 'nl.psdcompany:duo-navigation-drawer:3.0.0'
+    implementation 'com.github.Binary-Finery:Bungee:master-SNAPSHOT'
+    implementation 'com.karlgao.materialroundbutton:materialroundbutton:1.0.0'
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4' // remove
 
 
 }

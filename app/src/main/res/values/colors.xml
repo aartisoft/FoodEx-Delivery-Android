@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimaryVeryLight">#A6E4B5</color>
-    <color name="colorPrimaryLight">#7dcc90</color>
+    <color name="colorPrimaryVeryLight">#8E8DFF</color>
+    <color name="colorPrimaryLight">#7A79FF</color>
     <color name="colorPrimary">#6665FF</color>
     <color name="colorInnactive">#dedede</color>
     <color name="colworCardInnactive">#F3F3F3</color>
     <color name="colorCountInnactive">#666666</color>
     <color name="green">#27ae60</color>
     <color name="red">#e74c3c</color>
-    <color name="colorPrimaryDisabled">#72dbae</color>
-    <color name="colorPrimaryDark">#35aa72</color>
+    <color name="colorPrimaryDisabled">#8E8DFF</color>
+    <color name="colorPrimaryDark">#5251EB</color>
 
     <color name="colorAccent">#CACACA</color>
     <color name="white">#FFFFFF</color>
-    <color name="bottom_menu_background">#F5F5F5</color>
-    <color name="light_white">#F7F7F7</color>
-    <color name="dark_white">#e6e3e5</color>
     <color name="dark">#24344a</color>
     <color name="white_text">#CACACA</color>
     <color name="dark_text">#AAAAAA</color>
@@ -29,6 +26,5 @@
     <color name="ripple_color">#f8f8f8</color>
     <color name="ripple_dark_color">#C8C8C8</color>
     <color name="input_text">#222222</color>
-
 
 </resources>

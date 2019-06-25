@@ -34,6 +34,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.gson.Gson;
 import com.korlab.foodex.delivery.Data.Courier;
 import com.korlab.foodex.delivery.R;
+import com.korlab.foodex.delivery.UI.MaterialButton;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -248,18 +249,18 @@ public class Helper {
         editText.setHint(builder);
     }
 
-//    public static void enableButton(Activity activity, MaterialButton button) {
-//        button.setEnabled(true);
-//        button.setButtonColor(activity.getResources().getColor(R.color.colorPrimary));
-//        button.setBorderColor(activity.getResources().getColor(R.color.colorPrimary));
-//
-//    }
-//
-//    public static void disableButton(Activity activity, MaterialButton button) {
-//        button.setEnabled(false);
-//        button.setButtonColor(activity.getResources().getColor(R.color.colorPrimaryDisabled));
-//        button.setBorderColor(activity.getResources().getColor(R.color.colorPrimaryDisabled));
-//    }
+    public static void enableButton(Activity activity, MaterialButton button) {
+        button.setEnabled(true);
+        button.setButtonColor(activity.getResources().getColor(R.color.colorPrimary));
+        button.setBorderColor(activity.getResources().getColor(R.color.colorPrimary));
+
+    }
+
+    public static void disableButton(Activity activity, MaterialButton button) {
+        button.setEnabled(false);
+        button.setButtonColor(activity.getResources().getColor(R.color.colorPrimaryDisabled));
+        button.setBorderColor(activity.getResources().getColor(R.color.colorPrimaryDisabled));
+    }
 
     public static boolean isEmailValid(String email) {
         String regExp =

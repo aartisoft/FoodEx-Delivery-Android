@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initTaskList() {
-        generateTaskList("Господаренко", "Юлия","Владимировна",
+        generateTaskList( "Юлия","Господаренко","Владимировна",
                 "St. Universitets`ka", "30-A", "78",
                 "St. Levoberezhna", "10", "22",
                 7, 56,
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 "+380 95 948 35 23",
                 Task.Type.PACKAGE,
                 4);
-        generateTaskList("Симиренко", "Дмитрий","Александрович",
+        generateTaskList( "Дмитрий","Симиренко","Александрович",
                 "St. Solovyova", "11", "35",
                 "St. Prilago", "93", "22/2",
                 8, 3,
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 "+380 97 245 43 59",
                 Task.Type.BAG,
                 1);
-        generateTaskList("Рыбак", "Анна","Сергеевна",
+        generateTaskList( "Анна","Рыбак","Сергеевна",
                 "St. Prilago", "93", "22/2",
                 "St. Uritskogo", "2", "17",
                 8, 34,
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 "+380 98 257 57 95",
                 Task.Type.PACKAGE,
                 3);
-        generateTaskList("Симиренко", "Дмитрий","Александрович",
+        generateTaskList("Дмитрий","Симиренко", "Александрович",
                 "St. Solovyova", "11", "35",
                 "St. Prilago", "93", "22/2",
                 8, 3,
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                 "+380 97 245 43 59",
                 Task.Type.BAG,
                 1);
-        generateTaskList("Господаренко", "Юлия","Владимировна",
+        generateTaskList("Юлия","Господаренко", "Владимировна",
                 "St. Universitets`ka", "30-A", "78",
                 "St. Levoberezhna", "10", "22",
                 7, 56,
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                 "+380 95 948 35 23",
                 Task.Type.PACKAGE,
                 4);
-        generateTaskList("Рыбак", "Анна","Сергеевна",
+        generateTaskList( "Анна","Рыбак","Сергеевна",
                 "St. Prilago", "93", "22/2",
                 "St. Uritskogo", "2", "17",
                 8, 34,
